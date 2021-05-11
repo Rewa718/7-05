@@ -1,7 +1,7 @@
 // connect "Enter" button with "decide" function
 document.getElementById('enter').addEventListener('click', decide)
 
-function decide() {
+function decide () {
   // convert age number to integer
   const age = parseInt(document.getElementById('age').value)
   const day = document.getElementById('day').value
